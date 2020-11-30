@@ -55,11 +55,13 @@ img {
 
 /* HEADER */
 
+.header {
+  border-bottom: 1px solid var(--border-header);
+}
+
 .header-nav {
   display: flex;
   align-items: center;
-
-  border-bottom: 1px solid var(--border-header);
 }
 
 nav {
@@ -255,7 +257,7 @@ nav {
 }
 
 .team-content {
-  padding: 30px 0;
+  padding: 30px 10px;
 }
 
 .team-name {
@@ -290,6 +292,7 @@ nav {
 
 .logo-web.foot {
   display: inline-block;
+  margin: 0;
 }
 
 .footer .logo-studio {
