@@ -8,6 +8,7 @@
   --background: #f5f4fa;
   --bgr-primery-dark: #2f303a;
   --border-color: #eeeeee;
+  --border-header: #ececec;
 }
 
 html {
@@ -55,6 +56,8 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+
+  border-bottom: 1px solid var(--border-header);
 }
 
 nav {
@@ -215,6 +218,10 @@ nav {
 
 /* Чем мы занимаемся */
 
+.our-work {
+  padding-bottom: 94px;
+}
+
 .our-work-img {
   display: flex;
 }
@@ -322,8 +329,8 @@ nav {
 /* Портфолио */
 
 .portfolio-section {
-  margin-bottom: 94px;
-  margin-top: 92px;
+  padding-bottom: 94px;
+  padding-top: 92px;
 }
 
 .filters-container {
