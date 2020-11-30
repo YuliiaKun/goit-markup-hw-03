@@ -40,6 +40,8 @@ ul {
 
 img {
   display: block;
+  min-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -371,33 +373,29 @@ nav {
 .portfolio {
   width: 370px;
   margin: 15px;
-
-  border: 1px solid var(--border-color);
 }
 
-.portfolio-img {
-  margin-bottom: 20px;
+.portfolio-content {
+  padding: 20px 24px;
+  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .portfolio-title {
   margin-top: 0;
   margin-bottom: 4px;
-  margin-right: 24px;
-  margin-left: 24px;
 
   color: var(--txt-title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .portfolio-desc {
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin: 0;
 
   color: var(--txt-primery-color);
   font-size: 16px;
